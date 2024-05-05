@@ -246,7 +246,7 @@ def planning_function(optimize = True):
 
     ejecutar_programa(file_name)
 
-    acciones_extraidas = extraer_acciones("./output.txt")
+    acciones_extraidas = extraer_acciones("./PDDL/output.txt")
     print(acciones_extraidas)
     step, shelf = crear_sequencia(acciones_extraidas)
     return guidance(shelf)
