@@ -323,9 +323,5 @@
     (:goal
         (and
             (in person1 cashier)
-            (holding prod529)
-            (holding prod254)
-            (holding prod430)
-            (holding prod881)
-            (holding prod738)
+            (holding prod34)
 )))
